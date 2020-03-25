@@ -14,8 +14,8 @@ namespace MenuMasterLibrary
 
     public class Pizza
     {
-        public string typename { get; set; }
-        public int typeid { get; set; }
+        public string TypeName { get; set; }
+        public int TypeId { get; set; }
 
         public Pizza(Food dish)
         {
@@ -26,8 +26,8 @@ namespace MenuMasterLibrary
     public class Pasta
     {
 
-        public string typename { get; set; }
-        public int typeid { get; set; }
+        public string TypeName { get; set; }
+        public int TypeId { get; set; }
 
         public Pasta(Food dish)
         {
